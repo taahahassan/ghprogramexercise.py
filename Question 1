@@ -2,6 +2,9 @@ y = []
 
 for i in range(2000,3200):
   if i % 7 == 0 and i % 5 != 0:
-    y.append(i)
+    y.append(str(i))
 
-print (y)
+y = ','.join(y)
+
+print(y)
+
