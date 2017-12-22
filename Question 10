@@ -1,0 +1,12 @@
+l = input("Choose a few words: ")
+
+new_list = l.split(" ")
+
+a = []
+
+for x in new_list:
+  if x not in a:
+    a.append(str(x))
+
+b = " ".join(sorted(list(set(a))))
+print (b)
