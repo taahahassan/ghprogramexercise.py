@@ -1,0 +1,7 @@
+items = [x for x in input().split(',')]
+
+sortx = items.sorted()
+
+sortx = sortx.split(',')
+
+print (sortx)
