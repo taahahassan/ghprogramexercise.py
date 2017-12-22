@@ -1,0 +1,3 @@
+lines = str(input("Say something:"))
+
+print (str(lines.upper()))
